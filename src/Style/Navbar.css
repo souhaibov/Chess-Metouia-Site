@@ -1,0 +1,27 @@
+.Navigation ul{
+    /* position: fixed; */
+    margin-top: 0%;
+    padding-top: 0%;
+    border-style: dotted;
+    list-style: none;
+  background-color: rgb(3, 105, 76);
+  
+ 
+    width: 200vh;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navigation a {
+    color: rgb(255, 255, 255);
+    font: bold;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+.Navigation img{
+  
+    width: 60px;
+    height: 60px;
+}

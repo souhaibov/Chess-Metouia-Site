@@ -1,38 +1,26 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  min-height:calc(100vh - 60px);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  background-color: rgb(248, 249, 247);
+  /* background-image: url("D:\GO MY CODE\GoMyCode\My Project (C.E.M.)\chessmetouia\public\logo.jpg"); */
+  
+  background-size: auto; 
 }
+h1{
+  font-size: 60px;
+  text-shadow:#e7f6ff 0 -1px 0,
+#025a14 1px 1px 0,
+#0c5703 2px 2px 0,
+#131212 3px 3px 0,
+#9b0102 4px 4px 0,
+#541402 5px 5px 0,
+#333 5px 5px 10px;color:#f0f0ef;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home img{
+  height: 50vh;
 }
