@@ -6,16 +6,17 @@ const Navbar = () => {
   return (
     <div className='Navigation'>
         <ul className='navigation-ul'>
-            <img src="logo.jpg" alt="logo" />
+            <img src="logo.png" alt="logo" />
 
             <Link to='/'><li>Home</li></Link>
             <Link to='/Activities'><li>Activities</li></Link>
             <Link to='/Events'><li>Events</li></Link>
-            <Link  to='/About'><li>About</li>
+            <Link to='/About'><li>About</li>
             <ul className='under-list'>
-              <li>Students</li>
-              <li>Instructors</li>
-              <li>Courses</li>
+            
+            <Link  to='/Instructors'> <li>Coaches</li></Link>
+            <Link  to='/Students'><li>Students</li></Link>
+            <Link  to='/Managing'> <li>Managing body</li></Link> 
             </ul>
             </Link>
             <Link to='/ContactUs'><li>Contact us</li></Link>

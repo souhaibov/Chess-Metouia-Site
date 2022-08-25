@@ -1,0 +1,32 @@
+.card-instructors{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    
+}
+.instructor{
+    margin: 20px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.description{
+    
+    width: 70vw;
+    font-size: 14px;
+}
+.description h1{
+    
+    font-family: 'Open sans', sans-serif; color: #326803; font-size: 46 px;
+}
+.instructor img{
+    width: 30%;
+    margin: 20px;
+}
+.description h2{
+    
+    font-size: 32 px;
+}

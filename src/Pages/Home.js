@@ -4,8 +4,10 @@ import '../App.css'
 const Home = () => {
   return (
     <div className='home'>
+      <br/>
     <h1>Club d'Echecs de Métouia</h1>
-    <img src="logo.jpg" alt="logo" />
+    <br/>
+    <img src="logo.png" alt="logo" />
     </div>
   )
 }
