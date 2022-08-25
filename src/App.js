@@ -8,11 +8,15 @@ import Events from "./Pages/Events";
 import ContactUs from "./Pages/ContactUs";
 import About from "./Pages/About";
 import Login from "./Pages/Login";
+import DataStudent from "./Components/DataStudents";
+import { useState } from "react";
 
 function App() {
+  const [Datastudent,setStudent]=useState(DataStudent);
   return (
     <div className="App">
       
+
         <Navbar />
 
         <div className="container">
@@ -21,7 +25,7 @@ function App() {
           <Route path="/Activities" element={<Activities />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/About" element={<About DataStudent={Datastudent}/>} />
           <Route path="/Login" element={<Login />} />
         </Routes>
         </div>

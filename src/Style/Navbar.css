@@ -1,13 +1,15 @@
-.Navigation ul{
+.Navigation{
+    width: 100%;
+    background-color: rgb(3, 105, 76);
+}
+.navigation-ul{
     /* position: fixed; */
     margin-top: 0%;
     padding-top: 0%;
     border-style: dotted;
     list-style: none;
-  background-color: rgb(3, 105, 76);
-  
- 
-    width: 200vh;
+   margin-inline: auto;
+    width: 90vw;
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -18,10 +20,25 @@
     font: bold;
     font-size: 24px;
     text-decoration: none;
-    
+    position: relative;
 }
 .Navigation img{
   
     width: 60px;
     height: 60px;
+}
+.under-list{
+    position: absolute;
+    display: flex;
+    background-color: rgb(3, 105, 76);
+    list-style: none;
+    left: -10px;
+    flex-direction:column;
+    align-items: flex-start;
+    padding: 20px 5px;
+}
+
+/* afficher underlist when we hover the li */
+.Navigation a:hover .under-list{
+    display: flex;
 }

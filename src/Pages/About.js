@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const About = () => {
+const About = ({ DataStudent }) => {
   return (
     <div>
-      الهيئة المديرة
+      {DataStudent?.map((el) => (
+        <div>
+          <h1>{el.name}</h1>
+          <h1>{el.age}</h1>
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

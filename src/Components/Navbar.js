@@ -5,13 +5,19 @@ import '../Style/Navbar.css'
 const Navbar = () => {
   return (
     <div className='Navigation'>
-        <ul>
+        <ul className='navigation-ul'>
             <img src="logo.jpg" alt="logo" />
 
             <Link to='/'><li>Home</li></Link>
             <Link to='/Activities'><li>Activities</li></Link>
             <Link to='/Events'><li>Events</li></Link>
-            <Link to='/About'><li>About</li></Link>
+            <Link  to='/About'><li>About</li>
+            <ul className='under-list'>
+              <li>Students</li>
+              <li>Instructors</li>
+              <li>Courses</li>
+            </ul>
+            </Link>
             <Link to='/ContactUs'><li>Contact us</li></Link>
             
             <Link to={`/Login`}><img src="login.jpg" alt="login"  /></Link>
