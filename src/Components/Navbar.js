@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
             <Link to='/ContactUs'><li>Contact us</li></Link>
             
-            <Link to={`/Login`}><img src="login.jpg" alt="login"  /></Link>
+            <Link to={`/Login`}><img className="login" src="login.png" alt="login"  /></Link>
         </ul>
     </div>
   )

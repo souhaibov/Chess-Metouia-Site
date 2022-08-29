@@ -12,21 +12,29 @@ const Activities = () => {
             <div className='card-Activities'>
         {DataActivities?.map((el) => (
         <div className='Activities'>
-          <div><img src={el.tof} alt={el.place}/></div>
+          <br/>
+           <h2 style={{fontSize:"32px",color: 'green'}}>【﻿Work Space】: {el.place}</h2>
+           <br/>
+           <h2 style={{color: 'darkgreen'}}>Number Of Students : {el.NumberOfStudents}</h2>
+           <br/>
+           <div className='list-image'>
+          {el.tof.map(image=><div><img src={image} alt={el.place}/></div>)}
+          
+          
+          </div>
+          {/* <a href={el.video} target="_blank" rel="noreferrer"></a> */}
           <br/>
           <div className='st-description'>
-            <h2 style={{color: 'green4'}}>Work Space: {el.place}</h2>
-            <br/>
-            <h2 style={{color: 'ForestGreen'}}>Number Of Students: {el.NumberOfStudents}</h2>
+           
+            
+            
         </div>
     </div>
       ))}
     </div>
       
       
-      <h1>
-        Open Days 
-      </h1>
+      
     </div>
   )
 }
