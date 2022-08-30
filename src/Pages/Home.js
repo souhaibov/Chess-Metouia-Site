@@ -6,7 +6,7 @@ const Home = () => {
     <div className='home'>
       <br/>
     <h1>Club d'Echecs de Métouia</h1>
-    <br/>
+   
     <img src="logo.png" alt="logo" />
     </div>
   )

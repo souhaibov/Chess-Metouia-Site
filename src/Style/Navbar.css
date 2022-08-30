@@ -11,7 +11,7 @@
     list-style: none;
    margin-inline: auto;
    
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,9 +24,10 @@
     position: relative;
 }
 .Navigation img{
-  
-    width: 60px;
-    height: 60px;
+  justify-content: center;
+  justify-items: center;
+    width: 5vw;
+    height: 10vh;
 }
 .under-list{
     position: absolute;

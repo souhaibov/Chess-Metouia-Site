@@ -2,7 +2,7 @@ import React from "react";
 
 const About = ({ DataStudent }) => {
   return (
-    <div>
+    <div style={{height: '150vh'}}>
      
     </div>
   );

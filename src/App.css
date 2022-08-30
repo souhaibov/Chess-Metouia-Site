@@ -12,8 +12,8 @@
   min-height:calc(100vh - 60px);
 }
 .App{
-  background-color: rgb(234, 238, 230);
-  /* background-image: url("D:\GO MY CODE\GoMyCode\My Project (C.E.M.)\chessmetouia\public\logo.jpg"); */
+  background-color: rgb(228, 193, 232);
+   background-image: url("https://img.freepik.com/photos-gratuite/main-homme-jouant-aux-echecs-pour-planification-entreprise-comparaison-metaphore-mise-au-point-selective_1150-19606.jpg?w=2000");
   
   background-size: auto; 
 }
@@ -29,5 +29,11 @@ h1{
 
 }
 .home img{
-  height: 50vh;
+  width: 40vw;
+  height: 80vh;
+
+}
+.home{
+  width: 100%;
+  height: 150vh;
 }
