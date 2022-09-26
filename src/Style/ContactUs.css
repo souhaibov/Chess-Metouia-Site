@@ -1,13 +1,52 @@
 .contact-card{
+    /* border-style: dashed; */
+   justify-content: center;
+   justify-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.left_side{
+    /* border-style: dashed; */
+    margin: 10vh auto 10vh 0; 
+   width: 40vw;
+   height: 100vh;
+}
+.info_club{
+    padding: 0px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 80%;
+    width: auto;
+    height: 25vh;
+    /* border-style: dotted; */
+    box-shadow: rgba(99, 1, 91, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(243, 241, 243);
+}
+.sous_info {
+    width: 28%;
+
+}
+.sous_info1 img,.sous_info2 img{
+width: 40px;
+height: 45px;
+}
+.sous_info .position{
+    width: 35px;
+    height: 45px;
+}
+
+.formulaire{
      margin: 10vh auto 10vh auto; 
      padding: 5vh 10vh 10vh 10vh; 
     box-shadow: rgba(99, 1, 91, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     background-color: rgb(243, 241, 243);
     width: 80vh;
+    height: 90vh;
     justify-content: center;
     justify-items: center;
 }
-.contact-card button{
+.formulaire button{
 
 width:41vh ;
 height: 40px;
@@ -15,7 +54,18 @@ background-color: rgb(3, 135, 91);
 color: white;
 font-size: 18px;
 }
-.contact-card input{
+.formulaire input{
     height: 30px;
     width: 60vh;
+}
+.text-center {
+    text-align: center !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }

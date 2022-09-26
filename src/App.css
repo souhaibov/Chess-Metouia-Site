@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing:border-box;
 }
-
+button{
+  border: none;
+}
 .App {
 
   text-align: center;
@@ -12,8 +14,8 @@
   min-height:calc(100vh - 60px);
 }
 .App{
-  background-color: rgb(228, 193, 232);
-   background-image: url("https://img.freepik.com/photos-gratuite/main-homme-jouant-aux-echecs-pour-planification-entreprise-comparaison-metaphore-mise-au-point-selective_1150-19606.jpg?w=2000");
+  /* background-color: rgb(228, 193, 232); */
+   background-image: url("https://img.freepik.com/photos-gratuite/main-homme-jouant-aux-echecs-pour-planification-entreprise-comparaison-metaphore-mise-au-point-selective_1150-19606.jpg?w=2000"); 
   
   background-size: auto; 
 }
@@ -30,11 +32,12 @@ color:#d1d3d2;
 
 }
 .home img{
-  width: 40vw;
-  height: 80vh;
+  width: 30vw;
+  height: 60vh;
 
 }
 .home{
   width: 100%;
   height: 150vh;
 }
+

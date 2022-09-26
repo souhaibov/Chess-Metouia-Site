@@ -12,7 +12,7 @@
     width: 200px;   
 }
 .login-card button{
-
+border: none;
 width:15vw ;
 height: 40px;
 background-color: rgb(3, 135, 91);
